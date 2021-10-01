@@ -1,0 +1,281 @@
+.header-section{
+    width: 100%;
+    height: 530px;
+    background:linear-gradient(-45deg, rgba(0,0, 0, 0.75), 
+    rgba(0,0,0,0.75)) fixed, 
+    url("/public/img/header-img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hamburguer{
+    display: none;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+.nav-links {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 15px;
+    display: flex;
+    list-style: none;
+}
+.nav-links li {
+    padding-left: .8rem;
+    font-size: 1.2rem;
+    a{
+        color: white;
+        text-decoration: none;
+        transition: 0.4s ease;
+    }
+}
+.nav-links li a:hover {
+    color: #e91363;
+}
+.logo {
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 180px;
+    & h2{
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
+
+.content-text-1 {
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    margin: 25px 0;
+}
+.btn{
+    padding: 100px 2px;
+    margin-left: 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #ffffff;
+    cursor:  pointer;
+    border: 2px solid #e91363;
+    padding: 10px 20px;
+    background-color: #e91363;
+}
+.btn-1{
+    padding: 12px 36px;
+    transition: 0.2s;
+}
+.btn-1:hover{
+    background-color: transparent;
+    border: 2px solid #e91363;
+ }
+ .btn-2{
+    padding: 10px 36px;
+    transition: .2s;
+ }
+ .btn-2:hover{
+    background-color: #810834;
+    border: 2px solid #810834;
+ }
+
+ .header-categories {
+     margin:24px 0 0 65px;
+     min-height: 1vh;
+     display: flex;
+     flex-direction: column;
+     background-color: #f9f9fa;
+     h2{
+         font-weight: 900;
+         font-size: 2.2rem;
+     }
+     .sub-text{
+        color: #5a5271;
+        text-transform: uppercase;
+     }
+ }
+// Categories ------------------------------------------------------------------
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // padding: 90px 40px;
+  }
+  .categories .covers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 40px;
+  }
+  
+  .categories .covers > div {
+      border-radius: 12px;
+    height: 350px;
+    width: 400px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .categories .cover-grad {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+        156.82deg,
+        rgba(0, 0, 0, 0.6) 4.58%,
+        rgba(0, 0, 0, 0) 69.61%
+      ),
+      linear-gradient(24.5deg, 
+      rgba(0, 0, 0, 0.2) 4.71%, 
+      rgba(0, 0, 0, 0) 71.49%);
+      transition: 4s;
+  }
+  .categories .cover-grad:hover {
+    background: linear-gradient(
+        156.82deg,
+        rgba(0, 0, 0, 0.6) 4.58%,
+        rgba(0, 0, 0, 0) 69.61%
+      ),
+      linear-gradient(24.5deg, 
+      rgba(88, 19, 19, 0.2) 4.71%, 
+      rgba(105, 8, 8, 0.562) 71.49%);
+  }
+
+  .categories .cover-text {
+    color:#f9f9fa ;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+  }
+
+  .categories .cover-1 {
+    background: url("/public/img/cover1.jpg") no-repeat center center / cover;
+  }
+  .categories .cover-2 {
+    background: url("/public/img/cover2.jpg") no-repeat center center / cover;
+  }
+  .categories .cover-3 {
+    background: url("/public/img/cover3.jpg") no-repeat center center / cover;
+  }
+  .categories .cover-4 {
+    background: url("/public/img/cover4.jpg") no-repeat center center / cover;
+  }
+  .categories .cover-5 {
+    background: url("/public/img/cover5.jpg") no-repeat center center / cover;
+  }
+  .categories .cover-6 {
+    background: url("/public/img/cover6.jpg") no-repeat center center / cover;
+  }
+//  Footer --------------------------------------------------
+  .footer {
+      margin-top: 14px;
+      background: #ebedf2;
+      color: #333;
+  }
+  .footer a {
+    color: #333;
+    list-style: none;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    color:#e91363;
+  }
+
+  .footer-container{
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px;
+  }
+
+  .footer-lists{
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      .list-head{
+        text-decoration: none;
+        list-style: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 5px 0;
+    }
+  }
+
+.nav-links.show{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 11;
+}
+
+//  media querys - Responsive
+@media screen and (max-width: 768px) {
+    // @media screen and (max-width: 768px) {
+    .hamburguer{
+        font-size: 1.5rem;
+        display: block;
+        color: #f9f9fa;
+        margin: 20px;
+    }
+    .categories .covers {
+        grid-template-columns: 1fr;
+      }
+    .nav-links{
+        display: none;
+    }
+    .content{
+        h2{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        } 
+        .content-text-1 {
+            text-align: center;
+        }
+
+        
+        }.footer-container{
+            padding: 12px;
+        }
+        .footer-lists{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+}
+
+// @media screen and (max-width: 768px) {
+//     .hamburguer{
+//         font-size: 1.5rem;
+//         display: block;
+//         color: #f9f9fa;
+//         margin: 20px;
+//     }
+//     .nav-links .show{
+//         display:block;
+//         display: flex;
+//         font-size: 12px;
+//     }
+//     .nav-link{
+//         display:block;
+//         font-size: 12px;
+
+//     }
+    
+// }

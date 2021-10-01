@@ -1,2 +1,7 @@
-# Proyect-Bocca
-Proyecto University of Politecnico gran colombiano
+#Proyect of university
+#Tools {
+    *Scss - Darth SaSS
+    *HTML
+    *Vanilla JS
+    *Firebas - coming soon
+}
