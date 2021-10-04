@@ -1,3 +1,2 @@
-# Fix the navigation
-Add the database with firebase
- Create variables for Css
+Proyecto de la universidad politecnico gran colombiano
+implementacion y desarrollo del software bocca
