@@ -1,7 +1,6 @@
-#Proyect of university
-#Tools {
-    *Scss - Darth SaSS
-    *HTML
-    *Vanilla JS
-    *Firebas - coming soon
-}
+# Fix the navigation
+
+
+# Add the database with firebase
+
+# Create variables for Css
