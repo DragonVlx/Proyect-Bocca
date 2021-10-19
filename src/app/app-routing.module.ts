@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContentComponent } from './content/content.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { TournamentsComponent } from './tournaments/tournaments.component';
 
 const routes: Routes = [
   {
@@ -12,9 +13,20 @@ const routes: Routes = [
   {
     path: "content",
     component: ContentComponent
-  }, {
+  },
+  {
     path: "register",
     component: RegisterComponent
+  },
+  {
+    path: "tournaments",
+    component: TournamentsComponent
+  },
+  // router 404 error
+  {
+    path: "**",
+    redirectTo: "",
+    pathMatch: "full"
   }
 ];
 

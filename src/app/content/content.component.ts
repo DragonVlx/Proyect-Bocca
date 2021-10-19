@@ -10,9 +10,9 @@ import { Component, OnInit } from '@angular/core';
             <h2>Bocca Software</h2>
         </div>
         <ul class="nav-links" id="mobile-menu">
-            <li><a href="">Contest</a></li>
+            <li><a routerLink="/tournaments">Contest</a></li>
             <li><a href="">Options</a></li>
-            <li><a href="../../../index.html">Log Out</a></li>
+            <li><a routerLink="/login">Log Out</a></li>
         </ul>
         <div class="hamburguer">
             <i class="fas fa-bars"></i>

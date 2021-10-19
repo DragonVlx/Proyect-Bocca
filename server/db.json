@@ -1,0 +1,40 @@
+{
+  "tournaments": [
+    {
+      "id": 1,
+      "city": "Bogota",
+      "date": "12-10-2021",
+      "addres": "Cr 28 # 13-20"
+    },
+    {
+      "id": 2,
+      "city": "Bogota",
+      "date": "12-10-2021",
+      "addres": "San fernando C23  #12-42"
+    },
+    {
+      "id": 3,
+      "city": "Funza Cundinamarca",
+      "date": "12-10-2021",
+      "addres": "Centro-Funza"
+    },
+    {
+      "id": 4,
+      "city": "New York",
+      "date": "16-10-2021",
+      "addres": "Central Park"
+    },
+    {
+      "id": 5,
+      "city": "New York",
+      "date": "16-10-2021",
+      "addres": "Central Park"
+    },
+    {
+      "id": 6,
+      "city": "Canada",
+      "date": "16-11-2021",
+      "addres": "Quebec"
+    }
+  ]
+}

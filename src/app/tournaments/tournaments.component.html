@@ -1,0 +1,18 @@
+<section class="tournaments">
+  <div class="card-tournament" *ngFor="let tournament of tournaments">
+    <div class="card-title">
+      <h2>{{tournament.id}}</h2>
+    </div>
+    <div class="card-info">
+      <div>
+        <p>city:{{tournament.city }}</p>
+      </div>
+      <div>
+        <p>date:{{tournament.date}}</p>
+      </div>
+      <div>
+        <p>addres:{{tournament.addres}}</p>
+      </div>
+    </div>
+  </div>
+</section>
