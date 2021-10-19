@@ -643,3 +643,44 @@ z-index: 11;
       }
   }
 }
+
+// CREATE TOURNAMENTS STYLES
+.tournaments {
+    background: url(assets/contest-bg.jpg) center center/cover;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 45px;
+  }
+.card-tournament {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  background:linear-gradient(225deg, #350923,#2b98f1);
+  transition: .3s;
+}
+.card-tournament:hover {
+  border: 1px solid #e91363;
+  background: hsla(0, 0%, 0%, 0.486);
+  background: -webkit-linear-gradient(225deg, #1ae408,#2b98f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.card-info p {
+  margin:  20px;
+  font-size: 1.4rem;
+}
